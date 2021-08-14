@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Camera</title>
+        <link href = "style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="video-container">
+            <div class="frame" style="overflow: hidden; height: 100%;">
+            <video autoplay ></video>
+            </div>
+        </div>
+        <div class="filter-screen-parent">
+            
+        </div>
+        <div id="record-button"><img src="https://img.icons8.com/officel/108/000000/record.png"/></div>
+        <div id="capture-button"><img src="https://img.icons8.com/office/60/000000/camera.png"/></div>
+        <div class="filter-container">
+            <div style="background-color: rgba(97, 233, 233, 0.384);" class="filter"></div>
+            <div style="background-color:#e85d0440;" class="filter"></div>
+            <div style="background-color:#ad5d6d7a;" class="filter"></div>
+            <div style="background-color: #2195f323;" class="filter"></div>
+            <div style="background-color: #4caf4f31;" class="filter"></div>
+        </div>
+
+        <div class="zoom">
+            <div class="zoom-in"><img src="https://img.icons8.com/ultraviolet/40/000000/zoom-in--v1.png"/></div>
+            <div class="zoom-out"><img src="https://img.icons8.com/ultraviolet/40/000000/zoom-out.png"/></div>
+        </div>
+
+        <div class="show-gallery"></div>
+        <!-- <div class="modal">
+            <div class="title">
+                <span>Gallery</span>
+                <span class="close" >X</span>
+            </div>
+            <div class="gallery">
+                <div class="image">
+                    <img src='' ></img>
+                </div>
+
+                <div class="video">
+                    <video src='' autoplay></video>
+                </div>
+            </div>
+
+        </div> -->
+        <div class="timer">
+            <span class="minute">00</span>:<span class="second">00</span>
+        </div>
+        
+    </body>
+    <script src="DbScript.js"></script>
+    
+    <script src="script.js">
+ 
+    </script>
+</html>
